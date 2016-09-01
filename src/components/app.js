@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import ClientList from './client_list';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+      	<ClientList />
+      </div>
     );
   }
 }
